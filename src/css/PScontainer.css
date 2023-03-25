@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.problem-sec {
+  width: 100%;
+  height: 572px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.pscontainer {
+  width: 90%;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.problem-heading {
+  /* background-color: aquamarine; */
+  width: 70%;
+  height: 12%;
+}
+h3 {
+  font-size: 35px;
+  margin: 29px 0px 22px 0px;
+  text-align: center;
+  font-weight: bolder;
+}
+.problem-statement {
+  width: 65%;
+  height: 40%;
+  margin-left: 156px;
+  /* background-color: rgb(190, 190, 237); */
+}
+p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.problem-tab {
+  width: 90%;
+  height: 650px;
+  margin-top: 144px;
+  background: #f6f9ff;
+  border-radius: 35px;
+  padding: 20px;
+  z-index: 9;
+  position: absolute;
+  display: flex;
+}
+.problem-tab-left {
+  /* background-color: aquamarine; */
+  width: 40%;
+}
+.problem-box {
+  /* background: beige; */
+  width: 94%;
+  margin: 20px;
+}
+
+.pro-head {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: start;
+  margin: 10px;
+}
+.pro-para {
+  font-size: 16px;
+  text-align: start;
+  margin: 10px;
+}
+
+.problem-tab-right {
+  /* background-color: rgb(237, 27, 199); */
+  width: 60%;
+}
+
+.problem-sec2 {
+  background-color: black;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.solution-layout {
+  /* background-color: red; */
+  width: 90%;
+  height: 700px;
+  display: flex;
+}
+.left_layout {
+  margin-top: 20em;
+  /* background-color: aqua; */
+  width: 40%;
+  height: 478px;
+}
+.right_layout {
+  margin-top: 20em;
+  /* background-color: bisque; */
+  width: 60%;
+  height: 478px;
+  display: flex;
+}
+h4 {
+  font-size: 44px;
+  color: white;
+}
+.span_S {
+  color: #ffc107;
+}
+.span_p {
+  text-align: start;
+  text-align: left;
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  text-decoration-style: none;
+  list-style-type: none;
+  margin: 40px 0px 0px 0px;
+}
+
+.can-img1 {
+  margin: 10px;
+  width: 50%;
+  height: 90%;
+}
+.img {
+  height: 21em;
+}
+.can-img2 {
+  width: 50%;
+  height: 90%;
+}
+h5 {
+  margin: 10px;
+  font-size: 16px;
+  color: white;
+}
